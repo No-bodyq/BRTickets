@@ -37,6 +37,12 @@
             cursor: pointer;
         }
 
+        .btn-primary {
+        color: rgb(255, 255, 255);
+        background-color: #64BAF3 !important;
+        border-color: #64BAF3 !important;
+    }
+
         .seat-btn.selected {
             background: #64BAF3;
             color: white;
