@@ -314,8 +314,8 @@
                         <h1 class="text-white">Ready to Plan Your Trip?</h1>
                         <p class="text-white">Enjoy a seamless travel experience with BRTickets.</p>
                         <div class="banner-btn">
-                            <a href="#" class="btn btn-secondary rounded-pill py-3 px-4 px-md-5 me-2">WhatchApp</a>
-                            <a href="/contact.html" class="btn btn-primary rounded-pill py-3 px-4 px-md-5 ms-2">Contact Us</a>
+                            <a href="#" class="btn btn-secondary rounded-pill py-3 px-4 px-md-5 me-2">About</a>
+                            <a href="contact.php" class="btn btn-primary rounded-pill py-3 px-4 px-md-5 ms-2">Contact Us</a>
                         </div>
                     </div>
                 </div>

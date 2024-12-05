@@ -88,10 +88,9 @@
                                     <a href="cars.php" class="dropdown-item">Our Cars</a>
                                     <a href="team.php" class="dropdown-item active">Our Team</a>
                                     <a href="testimonial.php" class="dropdown-item">Testimonial</a>
-                                    <a href="404.html" class="dropdown-item">404 Page</a>
                                 </div>
                             </div>
-                            <a href="contact.html" class="nav-item nav-link">Contact</a>
+                            <a href="contact.php" class="nav-item nav-link">Contact</a>
                         </div>
                         <a href="#" class="btn btn-primary rounded-pill py-2 px-4">Get Started</a>
                     </div>
@@ -267,9 +266,6 @@
                         <span class="text-body"><a href="#" class="border-bottom text-white"><i class="fas fa-copyright text-light me-2"></i>Your Site Name</a>, All right reserved.</span>
                     </div>
                     <div class="col-md-6 text-center text-md-end text-body">
-                        <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
-                        <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
-                        <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
                         Designed By <a class="border-bottom text-white" href="index.php">BRTickets</a>                    </div>
                 </div>
             </div>
