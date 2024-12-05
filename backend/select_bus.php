@@ -32,16 +32,16 @@ $fullName = $user['full_name'];
             <h4>BRTickets</h4>
         </div>
         <div class="sidebar-menu">
-            <a href="#" class="menu-item">
+            <a href="user.php" class="menu-item">
                 <i class="fas fa-home"></i> Dashboard
             </a>
-            <a href="#" class="menu-item">
+            <a href="help_support.php" class="menu-item">
                 <i class="fas fa-headset"></i> Help and Support
             </a>
-            <a href="#" class="menu-item">
+            <a href="suggest_route.php" class="menu-item">
                 <i class="fas fa-route"></i> Suggest Route
             </a>
-            <a href="#" class="menu-item">
+            <a href="settings.php" class="menu-item">
                 <i class="fas fa-cog"></i> Settings
             </a>
         </div>
