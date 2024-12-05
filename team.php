@@ -25,7 +25,6 @@
         <!-- Customized Bootstrap Stylesheet -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
 
-        <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
     </head>
 
@@ -92,7 +91,6 @@
                             </div>
                             <a href="contact.php" class="nav-item nav-link">Contact</a>
                         </div>
-                        <a href="#" class="btn btn-primary rounded-pill py-2 px-4">Get Started</a>
                     </div>
                 </nav>
             </div>
