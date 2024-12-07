@@ -190,7 +190,6 @@
               </div>
             </div>
             <button type="submit" class="btn btn-primary btn-block" id="submitBtn" style="background-color: #64BAF3;">Login</button>
-            <p>Don't have an account? <a href="signup.php">Sign Up</a></p>
           </form>
         </div>
       </div>

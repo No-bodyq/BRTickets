@@ -140,7 +140,6 @@
               </div>
             </div>
             <button type="submit" class="btn btn-primary btn-block" style="padding: 1.5rem 1.5rem;">Sign Up</button>
-            <p>Already have an account? <a href="login.php">Login here</a></p>
           </form>
         </div>
       </div>

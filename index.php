@@ -129,12 +129,86 @@
                     <div class="carousel-caption">
                         <div class="container py-4">
                             <div class="row g-5">
-                                
+                                <div class="col-lg-6 fadeInLeft animated" data-animation="fadeInLeft" data-delay="1s" style="animation-delay: 1s;">
+                                    <div class="bg-secondary rounded p-5">
+                                        <h4 class="text-white mb-4">BOOK YOUR BRT TICKET</h4>
+                                        <form>
+                                            <div class="row g-3">
+                                                <div class="col-12">
+                                                    <select class="form-select" aria-label="Default select example">
+                                                        <option selected>Select Your Bus Route</option>
+                                                        <option value="1">Route A</option>
+                                                        <option value="2">Route B</option>
+                                                        <option value="3">Route C</option>
+                                                        <!-- <option value="4">BMW 320 ModernLine</option> -->
+                                                    </select>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="input-group">
+                                                        <div class="d-flex align-items-center bg-light text-body rounded-start p-2">
+                                                            <span class="fas fa-map-marker-alt"></span> <span class="ms-1">Select Departure Location</span>
+                                                        </div>
+                                                        <input class="form-control" type="text" placeholder="Enter Bus Stop or City" aria-label="Enter Bus Stop or City">
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <a href="#" class="text-start text-white d-block mb-2">Choose Your Destination</a>
+                                                    <div class="input-group">
+                                                        <div class="d-flex align-items-center bg-light text-body rounded-start p-2">
+                                                            <span class="fas fa-map-marker-alt"></span><span class="ms-1">Select Arrival Location</span>
+                                                        </div>
+                                                        <input class="form-control" type="text" placeholder="Enter Bus Stop or City" aria-label="Enter Bus Stop or City">
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="input-group">
+                                                        <div class="d-flex align-items-center bg-light text-body rounded-start p-2">
+                                                            <span class="fas fa-calendar-alt"></span><span class="ms-1">Pick Up</span>
+                                                        </div>
+                                                        <input class="form-control" type="date">
+                                                        <select class="form-select ms-3" aria-label="Default select example">
+                                                            <option selected>12:00AM</option>
+                                                            <option value="1">1:00AM</option>
+                                                            <option value="2">2:00AM</option>
+                                                            <option value="3">3:00AM</option>
+                                                            <option value="4">4:00AM</option>
+                                                            <option value="5">5:00AM</option>
+                                                            <option value="6">6:00AM</option>
+                                                            <option value="7">7:00AM</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="input-group">
+                                                        <div class="d-flex align-items-center bg-light text-body rounded-start p-2">
+                                                            <span class="fas fa-calendar-alt"></span><span class="ms-1">Select Arrival Location</span>
+                                                        </div>
+                                                        <input class="form-control" type="date">
+                                                        <select class="form-select ms-3" aria-label="Default select example">
+                                                            <option selected>12:00AM</option>
+                                                            <option value="1">1:00AM</option>
+                                                            <option value="2">2:00AM</option>
+                                                            <option value="3">3:00AM</option>
+                                                            <option value="4">4:00AM</option>
+                                                            <option value="5">5:00AM</option>
+                                                            <option value="6">6:00AM</option>
+                                                            <option value="7">7:00AM</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <!-- Replace the existing button with this -->
+                                                <div class="col-12">
+                                                    <button type="submit" class="btn btn-light w-100 py-2" onclick="handleReservation(event)">Reserve My Seat</button>
+                                                </div>
+
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
                                 <div class="col-lg-6 d-none d-lg-flex fadeInRight animated" data-animation="fadeInRight" data-delay="1s" style="animation-delay: 1s;">
                                     <div class="text-start">
                                         <h1 class="display-5 text-white">Book tickets quickly, easily, and securely!</h1>
-                                        <p>Your journey starts here. <a href="signup.php" class="btn btn-primary rounded-pill px-4 ms-3">Register with Us</a></p>
-                                        
+                                        <p>Your journey starts here.</p>
                                     </div>
                                 </div>
                             </div>
@@ -146,12 +220,83 @@
                     <div class="carousel-caption">
                         <div class="container py-4">
                             <div class="row g-5">
-                                
+                                <div class="col-lg-6 fadeInLeft animated" data-animation="fadeInLeft" data-delay="1s" style="animation-delay: 1s;">
+                                    <div class="bg-secondary rounded p-5">
+                                        <h4 class="text-white mb-4">Book Your BRT Reservatiom</h4>
+                                        <form>
+                                            <div class="row g-3">
+                                                <div class="col-12">
+                                                    <select class="form-select" aria-label="Default select example">
+                                                        <option selected>Select Your Bus Route</option>
+                                                        <option value="1">Route A</option>
+                                                        <option value="2">Route B</option>
+                                                        <option value="3">Route C</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="input-group">
+                                                        <div class="d-flex align-items-center bg-light text-body rounded-start p-2">
+                                                            <span class="fas fa-map-marker-alt"></span><span class="ms-1">Pick Up</span>
+                                                        </div>
+                                                        <input class="form-control" type="text" placeholder="Enter Bus Stop or City" aria-label="Enter Bus Stop or City">
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <a href="#" class="text-start text-white d-block mb-2">Choose Your Destination</a>
+                                                    <div class="input-group">
+                                                        <div class="d-flex align-items-center bg-light text-body rounded-start p-2">
+                                                            <span class="fas fa-map-marker-alt"></span><span class="ms-1">Select Arrival Location</span>
+                                                        </div>
+                                                        <input class="form-control" type="text" placeholder="Enter Bus Stop or City" aria-label="Enter Bus Stop or City">
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="input-group">
+                                                        <div class="d-flex align-items-center bg-light text-body rounded-start p-2">
+                                                            <span class="fas fa-calendar-alt"></span><span class="ms-1">Pick Up</span>
+                                                        </div>
+                                                        <input class="form-control" type="date">
+                                                        <select class="form-select ms-3" aria-label="Default select example">
+                                                            <option selected>12:00AM</option>
+                                                            <option value="1">1:00AM</option>
+                                                            <option value="2">2:00AM</option>
+                                                            <option value="3">3:00AM</option>
+                                                            <option value="4">4:00AM</option>
+                                                            <option value="5">5:00AM</option>
+                                                            <option value="6">6:00AM</option>
+                                                            <option value="7">7:00AM</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="input-group">
+                                                        <div class="d-flex align-items-center bg-light text-body rounded-start p-2">
+                                                            <span class="fas fa-calendar-alt"></span><span class="ms-1">Select Arrival Location</span>
+                                                        </div>
+                                                        <input class="form-control" type="date">
+                                                        <select class="form-select ms-3" aria-label="Default select example">
+                                                            <option selected>12:00AM</option>
+                                                            <option value="1">1:00AM</option>
+                                                            <option value="2">2:00AM</option>
+                                                            <option value="3">3:00AM</option>
+                                                            <option value="4">4:00AM</option>
+                                                            <option value="5">5:00AM</option>
+                                                            <option value="6">6:00AM</option>
+                                                            <option value="7">7:00AM</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <button class="btn btn-light w-100 py-2">Reserve My Seat</button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
                                 </div>
                                 <div class="col-lg-6 d-none d-lg-flex fadeInRight animated" data-animation="fadeInRight" data-delay="1s" style="animation-delay: 1s;">
                                     <div class="text-start">
                                         <h1 class="display-5 text-white">Book tickets quickly, easily, and securely!</h1>
-                                        <p>Your journey starts here. <a href="signup.php" class="btn btn-primary rounded-pill px-4 ms-3">Register with Us</a></p>
+                                        <p>Your journey starts here.</p>
                                     </div>
                                 </div>
                             </div>
@@ -283,7 +428,15 @@
                             <div class="col-lg-5 d-flex align-items-center">
                                 <a href="#" class="btn btn-primary rounded py-3 px-5">Discover More About BRTickets</a>
                             </div>
-                            
+                            <!-- <div class="col-lg-7">
+                                    <div class="d-flex align-items-center">
+                                        <img src="img/attachment-img.jpg" class="img-fluid rounded-circle border border-4 border-secondary" style="width: 100px; height: 100px;" alt="Image">
+                                        <div class="ms-4">
+                                            <h4>William Burgess</h4>
+                                            <p class="mb-0">Carveo Founder</p>
+                                        </div>
+                                    </div>
+                                </div> -->
                         </div>
                     </div>
                 </div>
@@ -427,8 +580,191 @@
     </div>
     <!-- Services End -->
 
-   
-
+    <!-- Car categories Start -->
+    <!-- <div class="container-fluid categories pb-5">
+            <div class="container pb-5">
+                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
+                    <h1 class="display-5 text-capitalize mb-3">Vehicle <span class="text-primary">Categories</span></h1>
+                    <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut amet nemo expedita asperiores commodi accusantium at cum harum, excepturi, quia tempora cupiditate! Adipisci facilis modi quisquam quia distinctio,
+                    </p>
+                </div>
+                <div class="categories-carousel owl-carousel wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="categories-item p-4">
+                        <div class="categories-item-inner">
+                            <div class="categories-img rounded-top">
+                                <img src="img/car-1.png" class="img-fluid w-100 rounded-top" alt="">
+                            </div>
+                            <div class="categories-content rounded-bottom p-4">
+                                <h4>Mercedes Benz R3</h4>
+                                <div class="categories-review mb-4">
+                                    <div class="me-3">4.5 Review</div>
+                                    <div class="d-flex justify-content-center text-secondary">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star text-body"></i>
+                                    </div>
+                                </div>
+                                <div class="mb-4">
+                                    <h4 class="bg-white text-primary rounded-pill py-2 px-4 mb-0">$99:00/Day</h4>
+                                </div>
+                                <div class="row gy-2 gx-0 text-center mb-4">
+                                    <div class="col-4 border-end border-white">
+                                        <i class="fa fa-users text-dark"></i> <span class="text-body ms-1">4 Seat</span>
+                                    </div>
+                                    <div class="col-4 border-end border-white">
+                                        <i class="fa fa-car text-dark"></i> <span class="text-body ms-1">AT/MT</span>
+                                    </div>
+                                    <div class="col-4">
+                                        <i class="fa fa-gas-pump text-dark"></i> <span class="text-body ms-1">Petrol</span>
+                                    </div>
+                                    <div class="col-4 border-end border-white">
+                                        <i class="fa fa-car text-dark"></i> <span class="text-body ms-1">2015</span>
+                                    </div>
+                                    <div class="col-4 border-end border-white">
+                                        <i class="fa fa-cogs text-dark"></i> <span class="text-body ms-1">AUTO</span>
+                                    </div>
+                                    <div class="col-4">
+                                        <i class="fa fa-road text-dark"></i> <span class="text-body ms-1">27K</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="categories-item p-4">
+                        <div class="categories-item-inner">
+                            <div class="categories-img rounded-top">
+                                <img src="img/car-2.png" class="img-fluid w-100 rounded-top" alt="">
+                            </div>
+                            <div class="categories-content rounded-bottom p-4">
+                                <h4>Toyota Corolla Cross</h4>
+                                <div class="categories-review mb-4">
+                                    <div class="me-3">3.5 Review</div>
+                                    <div class="d-flex justify-content-center text-secondary">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star text-body"></i>
+                                    </div>
+                                </div>
+                                <div class="mb-4">
+                                    <h4 class="bg-white text-primary rounded-pill py-2 px-4 mb-0">$128:00/Day</h4>
+                                </div>
+                                <div class="row gy-2 gx-0 text-center mb-4">
+                                    <div class="col-4 border-end border-white">
+                                        <i class="fa fa-users text-dark"></i> <span class="text-body ms-1">4 Seat</span>
+                                    </div>
+                                    <div class="col-4 border-end border-white">
+                                        <i class="fa fa-car text-dark"></i> <span class="text-body ms-1">AT/MT</span>
+                                    </div>
+                                    <div class="col-4">
+                                        <i class="fa fa-gas-pump text-dark"></i> <span class="text-body ms-1">Petrol</span>
+                                    </div>
+                                    <div class="col-4 border-end border-white">
+                                        <i class="fa fa-car text-dark"></i> <span class="text-body ms-1">2015</span>
+                                    </div>
+                                    <div class="col-4 border-end border-white">
+                                        <i class="fa fa-cogs text-dark"></i> <span class="text-body ms-1">AUTO</span>
+                                    </div>
+                                    <div class="col-4">
+                                        <i class="fa fa-road text-dark"></i> <span class="text-body ms-1">27K</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="categories-item p-4">
+                        <div class="categories-item-inner">
+                            <div class="categories-img rounded-top">
+                                <img src="img/car-3.png" class="img-fluid w-100 rounded-top" alt="">
+                            </div>
+                            <div class="categories-content rounded-bottom p-4">
+                                <h4>Tesla Model S Plaid</h4>
+                                <div class="categories-review mb-4">
+                                    <div class="me-3">3.8 Review</div>
+                                    <div class="d-flex justify-content-center text-secondary">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star text-body"></i>
+                                    </div>
+                                </div>
+                                <div class="mb-4">
+                                    <h4 class="bg-white text-primary rounded-pill py-2 px-4 mb-0">$170:00/Day</h4>
+                                </div>
+                                <div class="row gy-2 gx-0 text-center mb-4">
+                                    <div class="col-4 border-end border-white">
+                                        <i class="fa fa-users text-dark"></i> <span class="text-body ms-1">4 Seat</span>
+                                    </div>
+                                    <div class="col-4 border-end border-white">
+                                        <i class="fa fa-car text-dark"></i> <span class="text-body ms-1">AT/MT</span>
+                                    </div>
+                                    <div class="col-4">
+                                        <i class="fa fa-gas-pump text-dark"></i> <span class="text-body ms-1">Petrol</span>
+                                    </div>
+                                    <div class="col-4 border-end border-white">
+                                        <i class="fa fa-car text-dark"></i> <span class="text-body ms-1">2015</span>
+                                    </div>
+                                    <div class="col-4 border-end border-white">
+                                        <i class="fa fa-cogs text-dark"></i> <span class="text-body ms-1">AUTO</span>
+                                    </div>
+                                    <div class="col-4">
+                                        <i class="fa fa-road text-dark"></i> <span class="text-body ms-1">27K</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="categories-item p-4">
+                        <div class="categories-item-inner">
+                            <div class="categories-img rounded-top">
+                                <img src="img/car-4.png" class="img-fluid w-100 rounded-top" alt="">
+                            </div>
+                            <div class="categories-content rounded-bottom p-4">
+                                <h4>Hyundai Kona Electric</h4>
+                                <div class="categories-review mb-4">
+                                    <div class="me-3">4.8 Review</div>
+                                    <div class="d-flex justify-content-center text-secondary">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="mb-4">
+                                    <h4 class="bg-white text-primary rounded-pill py-2 px-4 mb-0">$187:00/Day</h4>
+                                </div>
+                                <div class="row gy-2 gx-0 text-center mb-4">
+                                    <div class="col-4 border-end border-white">
+                                        <i class="fa fa-users text-dark"></i> <span class="text-body ms-1">4 Seat</span>
+                                    </div>
+                                    <div class="col-4 border-end border-white">
+                                        <i class="fa fa-car text-dark"></i> <span class="text-body ms-1">AT/MT</span>
+                                    </div>
+                                    <div class="col-4">
+                                        <i class="fa fa-gas-pump text-dark"></i> <span class="text-body ms-1">Petrol</span>
+                                    </div>
+                                    <div class="col-4 border-end border-white">
+                                        <i class="fa fa-car text-dark"></i> <span class="text-body ms-1">2015</span>
+                                    </div>
+                                    <div class="col-4 border-end border-white">
+                                        <i class="fa fa-cogs text-dark"></i> <span class="text-body ms-1">AUTO</span>
+                                    </div>
+                                    <div class="col-4">
+                                        <i class="fa fa-road text-dark"></i> <span class="text-body ms-1">27K</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    <!-- Car categories End -->
 
     <!-- Car Steps Start -->
     <div class="container-fluid steps py-5">
@@ -465,7 +801,171 @@
     </div>
     <!-- Car Steps End -->
 
-    
+    <!-- Blog Start -->
+    <!-- <div class="container-fluid blog py-5">
+            <div class="container py-5">
+                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
+                    <h1 class="display-5 text-capitalize mb-3">Cental<span class="text-primary"> Blog & News</span></h1>
+                    <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut amet nemo expedita asperiores commodi accusantium at cum harum, excepturi, quia tempora cupiditate! Adipisci facilis modi quisquam quia distinctio,
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img src="img/blog-1.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                            </div>
+                            <div class="blog-content rounded-bottom p-4">
+                                <div class="blog-date">30 Dec 2025</div>
+                                <div class="blog-comment my-3">
+                                    <div class="small"><span class="fa fa-user text-primary"></span><span class="ms-2">Martin.C</span></div>
+                                    <div class="small"><span class="fa fa-comment-alt text-primary"></span><span class="ms-2">6 Comments</span></div>
+                                </div>
+                                <a href="#" class="h4 d-block mb-3">Rental Cars how to check driving fines?</a>
+                                <p class="mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius libero soluta impedit eligendi? Quibusdam, laudantium.</p>
+                                <a href="#" class="">Read More  <i class="fa fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img src="img/blog-2.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                            </div>
+                            <div class="blog-content rounded-bottom p-4">
+                                <div class="blog-date">25 Dec 2025</div>
+                                <div class="blog-comment my-3">
+                                    <div class="small"><span class="fa fa-user text-primary"></span><span class="ms-2">Martin.C</span></div>
+                                    <div class="small"><span class="fa fa-comment-alt text-primary"></span><span class="ms-2">6 Comments</span></div>
+                                </div>
+                                <a href="#" class="h4 d-block mb-3">Rental cost of sport and other cars</a>
+                                <p class="mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius libero soluta impedit eligendi? Quibusdam, laudantium.</p>
+                                <a href="#" class="">Read More  <i class="fa fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img src="img/blog-3.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                            </div>
+                            <div class="blog-content rounded-bottom p-4">
+                                <div class="blog-date">27 Dec 2025</div>
+                                <div class="blog-comment my-3">
+                                    <div class="small"><span class="fa fa-user text-primary"></span><span class="ms-2">Martin.C</span></div>
+                                    <div class="small"><span class="fa fa-comment-alt text-primary"></span><span class="ms-2">6 Comments</span></div>
+                                </div>
+                                <a href="#" class="h4 d-block mb-3">Document required for car rental</a>
+                                <p class="mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius libero soluta impedit eligendi? Quibusdam, laudantium.</p>
+                                <a href="#" class="">Read More  <i class="fa fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    <!-- Blog End -->
+
+    <!-- Banner Start -->
+    <!-- <div class="container-fluid banner pb-5 wow zoomInDown" data-wow-delay="0.1s">
+            <div class="container pb-5">
+                <div class="banner-item rounded">
+                    <img src="img/banner-1.jpg" class="img-fluid rounded w-100" alt="">
+                    <div class="banner-content">
+                        <h2 class="text-primary">Rent Your Car</h2>
+                        <h1 class="text-white">Interested in Renting?</h1>
+                        <p class="text-white">Don't hesitate and send us a message.</p>
+                        <div class="banner-btn">
+                            <a href="#" class="btn btn-secondary rounded-pill py-3 px-4 px-md-5 me-2">WhatchApp</a>
+                            <a href="#" class="btn btn-primary rounded-pill py-3 px-4 px-md-5 ms-2">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    <!-- Banner End -->
+
+    <!-- Team Start -->
+    <!-- <div class="container-fluid team pb-5">
+            <div class="container pb-5">
+                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
+                    <h1 class="display-5 text-capitalize mb-3 mt-5">Customer<span class="text-primary"> Suport</span> Center</h1>
+                    <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut amet nemo expedita asperiores commodi accusantium at cum harum, excepturi, quia tempora cupiditate! Adipisci facilis modi quisquam quia distinctio,
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="team-item p-4 pt-0">
+                            <div class="team-img">
+                                <img src="img/team-1.jpg" class="img-fluid rounded w-100" alt="Image">
+                            </div>
+                            <div class="team-content pt-4">
+                                <h4>MARTIN DOE</h4>
+                                <p>Profession</p>
+                                <div class="team-icon d-flex justify-content-center">
+                                    <a class="btn btn-square btn-light rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square btn-light rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square btn-light rounded-circle mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-square btn-light rounded-circle mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="team-item p-4 pt-0">
+                            <div class="team-img">
+                                <img src="img/team-2.jpg" class="img-fluid rounded w-100" alt="Image">
+                            </div>
+                            <div class="team-content pt-4">
+                                <h4>MARTIN DOE</h4>
+                                <p>Profession</p>
+                                <div class="team-icon d-flex justify-content-center">
+                                    <a class="btn btn-square btn-light rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square btn-light rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square btn-light rounded-circle mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-square btn-light rounded-circle mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="team-item p-4 pt-0">
+                            <div class="team-img">
+                                <img src="img/team-3.jpg" class="img-fluid rounded w-100" alt="Image">
+                            </div>
+                            <div class="team-content pt-4">
+                                <h4>MARTIN DOE</h4>
+                                <p>Profession</p>
+                                <div class="team-icon d-flex justify-content-center">
+                                    <a class="btn btn-square btn-light rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square btn-light rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square btn-light rounded-circle mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-square btn-light rounded-circle mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="team-item p-4 pt-0">
+                            <div class="team-img">
+                                <img src="img/team-4.jpg" class="img-fluid rounded w-100" alt="Image">
+                            </div>
+                            <div class="team-content pt-4">
+                                <h4>MARTIN DOE</h4>
+                                <p>Profession</p>
+                                <div class="team-icon d-flex justify-content-center">
+                                    <a class="btn btn-square btn-light rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square btn-light rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square btn-light rounded-circle mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-square btn-light rounded-circle mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    <!-- Team End -->
 
     <!-- Testimonial Start -->
     <div class="container-fluid testimonial pb-5">
