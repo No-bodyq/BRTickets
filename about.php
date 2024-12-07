@@ -149,15 +149,7 @@
                                 <div class="col-lg-5 d-flex align-items-center">
                                     <a href="#" class="btn btn-primary rounded py-3 px-5">Discover More About BRTickets</a>
                                 </div>
-                                <!-- <div class="col-lg-7">
-                                    <div class="d-flex align-items-center">
-                                        <img src="img/attachment-img.jpg" class="img-fluid rounded-circle border border-4 border-secondary" style="width: 100px; height: 100px;" alt="Image">
-                                        <div class="ms-4">
-                                            <h4>William Burgess</h4>
-                                            <p class="mb-0">Carveo Founder</p>
-                                        </div>
-                                    </div>
-                                </div> -->
+                               
                             </div>
                         </div>
                     </div>

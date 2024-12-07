@@ -86,7 +86,7 @@
             <nav class="navbar navbar-expand-lg navbar-light">
                 <a href="" class="navbar-brand p-0">
                     <h1 class="display-6 text-primary"><i class="fas fa-car-alt me-3"></i></i>BRTickets</h1>
-                    <!-- <img src="img/logo.png" alt="Logo"> -->
+                   
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="fa fa-bars"></span>
@@ -480,7 +480,7 @@
                     <div class="testimonial-quote"><i class="fa fa-quote-right fa-2x"></i>
                     </div>
                     <div class="testimonial-inner p-4">
-                        <!-- <img src="img/testimonial-1.jpg" class="img-fluid" alt=""> -->
+                        
                         <div class="ms-4">
                             <h4>John D.</h4>
                             <p>Frequent Commuter</p>
@@ -501,7 +501,7 @@
                     <div class="testimonial-quote"><i class="fa fa-quote-right fa-2x"></i>
                     </div>
                     <div class="testimonial-inner p-4">
-                        <!-- <img src="img/testimonial-2.jpg" class="img-fluid" alt=""> -->
+                        
                         <div class="ms-4">
                             <h4>Sarah L.</h4>
                             <p>Student</p>
@@ -522,7 +522,7 @@
                     <div class="testimonial-quote"><i class="fa fa-quote-right fa-2x"></i>
                     </div>
                     <div class="testimonial-inner p-4">
-                        <!-- <img src="img/testimonial-3.jpg" class="img-fluid" alt=""> -->
+                        
                         <div class="ms-4">
                             <h4>Michael T.</h4>
                             <p>Business Traveler</p>

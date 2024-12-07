@@ -35,24 +35,6 @@
     background: rgba(0, 0, 0, 0.2);
   }
 
-  /* The construction image side */
-  /* .construction-image {
-        background: url('../Images/hero-carousel-1.jpg') no-repeat center center fixed;
-        background-size: cover;
-      } */
-
-  /* The sign up form side */
-  /* .signup-section {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        min-height: 100vh;
-        padding: 1rem;
-        border-radius: 5%;
-        background-color: #f5f5f5; Replace with the correct color code from the image 
-      } */
-
-  /* The sign up form styling */
 
 
   .signup-form {
@@ -200,11 +182,11 @@
   <script src="../construction_site_takeii_php/aos/aos.js"></script>
   <script>
     AOS.init()({
-      // Custom settings:
-      duration: 800, // values from 0 to 3000, with step 50ms
-      easing: 'ease-in-out-quart', // default easing for AOS animations
-      once: true, // whether animation should happen only once - while scrolling down
-      mirror: false, // whether elements should animate out while scrolling past them
+      
+      duration: 800, 
+      easing: 'ease-in-out-quart', 
+      once: true, 
+      mirror: false, 
     });
 
     function togglePassword(inputId, iconId) {
