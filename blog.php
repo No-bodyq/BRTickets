@@ -110,7 +110,6 @@
                     <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="blog-item">
                             <div class="blog-img">
-                                <!-- <img src="img/blog-1.jpg" class="img-fluid rounded-top w-100" alt="Image"> -->
                             </div>
                             <div class="blog-content rounded-bottom p-4">
                                 <div class="blog-date">30 Dec 2024</div>
@@ -127,7 +126,6 @@
                     <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="blog-item">
                             <div class="blog-img">
-                                <!-- <img src="img/blog-2.jpg" class="img-fluid rounded-top w-100" alt="Image"> -->
                             </div>
                             <div class="blog-content rounded-bottom p-4">
                                 <div class="blog-date">25 Nov 2024</div>
@@ -144,7 +142,6 @@
                     <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="blog-item">
                             <div class="blog-img">
-                                <!-- <img src="img/blog-3.jpg" class="img-fluid rounded-top w-100" alt="Image"> -->
                             </div>
                             <div class="blog-content rounded-bottom p-4">
                                 <div class="blog-date">27 Nov 2025</div>
@@ -161,7 +158,6 @@
                     <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="blog-item">
                             <div class="blog-img">
-                                <!-- <img src="img/blog-1.jpg" class="img-fluid rounded-top w-100" alt="Image"> -->
                             </div>
                             <div class="blog-content rounded-bottom p-4">
                                 <div class="blog-date">20 Nov 2024</div>
@@ -178,7 +174,6 @@
                     <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="blog-item">
                             <div class="blog-img">
-                                <!-- <img src="img/blog-1.jpg" class="img-fluid rounded-top w-100" alt="Image"> -->
                             </div>
                             <div class="blog-content rounded-bottom p-4">
                                 <div class="blog-date">30 Oct 2024</div>
@@ -195,7 +190,6 @@
                     <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="blog-item">
                             <div class="blog-img">
-                                <!-- <img src="img/blog-1.jpg" class="img-fluid rounded-top w-100" alt="Image"> -->
                             </div>
                             <div class="blog-content rounded-bottom p-4">
                                 <div class="blog-date">10 Oct 2024</div>
