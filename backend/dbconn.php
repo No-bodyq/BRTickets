@@ -2,8 +2,8 @@
 // Database configuration
 define('DB_HOST', 'localhost');
 define('DB_NAME', 'busticket');
-define('DB_USER', 'root');     // Change this to your database username
-define('DB_PASS', '5552471');         // Change this to your database password
+define('DB_USER', 'root');
+define('DB_PASS', '5552471');
 
 try {
     // Create a PDO instance

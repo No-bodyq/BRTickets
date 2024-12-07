@@ -86,7 +86,7 @@ if (!isset($_SESSION['user_id'])) {
                 </div>
                 <div class="contact-card">
                     <h5><i class="fas fa-phone text-primary"></i> Customer Care</h5>
-                    <p>+234 801 234 5678<br>+234 809 876 5432</p>
+                    <p>+234 703 067 8299<br>+234 708 206 6484</p>
                     <small>Available 24/7</small>
                 </div>
             </div>

@@ -3,7 +3,7 @@
 
     <head>
         <meta charset="utf-8">
-        <title>Cental - Car Rent Website Template</title>
+        <title>BRTickets</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="" name="keywords">
         <meta content="" name="description">
@@ -62,40 +62,7 @@
         </div>
         <!-- Topbar End -->
 
-        <!-- Navbar & Hero Start -->
-        <div class="container-fluid nav-bar sticky-top px-0 px-lg-4 py-2 py-lg-0">
-            <div class="container">
-                <nav class="navbar navbar-expand-lg navbar-light">
-                    <a href="" class="navbar-brand p-0">
-                        <h1 class="display-6 text-primary"><i class="fas fa-car-alt me-3"></i></i>BRTickets</h1>
-                        <!-- <img src="img/logo.png" alt="Logo"> -->
-                    </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                        <span class="fa fa-bars"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarCollapse">
-                        <div class="navbar-nav mx-auto py-0">
-                            <a href="index.php" class="nav-item nav-link">Home</a>
-                            <a href="about.php" class="nav-item nav-link">About</a>
-                            <a href="service.php" class="nav-item nav-link">Service</a>
-                            <a href="blog.php" class="nav-item nav-link">Blog</a>
-                            
-                            <div class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Pages</a>
-                                <div class="dropdown-menu m-0">
-                                    <a href="feature.php" class="dropdown-item">Our Feature</a>
-                                    <a href="cars.php" class="dropdown-item">Our Cars</a>
-                                    <a href="team.php" class="dropdown-item active">Our Team</a>
-                                    <a href="testimonial.php" class="dropdown-item">Testimonial</a>
-                                </div>
-                            </div>
-                            <a href="contact.php" class="nav-item nav-link">Contact</a>
-                        </div>
-                    </div>
-                </nav>
-            </div>
-        </div>
-        <!-- Navbar & Hero End -->
+        <?php include 'header.php'; ?>
 
         <!-- Header Start -->
         <div class="container-fluid bg-breadcrumb">
@@ -114,7 +81,7 @@
         <div class="container-fluid team py-5">
             <div class="container py-5">
                 <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
-                    <h1 class="display-5 text-capitalize mb-3">Customer<span class="text-primary"> Suport</span> Center</h1>
+                    <h1 class="display-5 text-capitalize mb-3">Customer<span class="text-primary"> Support</span> Center</h1>
                     <!-- <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut amet nemo expedita asperiores commodi accusantium at cum harum, excepturi, quia tempora cupiditate! Adipisci facilis modi quisquam quia distinctio,
                     </p> -->
                 </div>
@@ -125,7 +92,7 @@
                                 <img src="img/" class="img-fluid rounded w-100" alt="Image">
                             </div>
                             <div class="team-content pt-4">
-                                <h4>MARTIN DOE</h4>
+                                <h4>Tayo Osunyomi</h4>
                                 <p>Profession</p>
                                 <div class="team-icon d-flex justify-content-center">
                                     <a class="btn btn-square btn-light rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
@@ -142,7 +109,7 @@
                                 <img src="img/" class="img-fluid rounded w-100" alt="Image">
                             </div>
                             <div class="team-content pt-4">
-                                <h4>MARTIN DOE</h4>
+                                <h4>Ojimba Anita</h4>
                                 <p>Profession</p>
                                 <div class="team-icon d-flex justify-content-center">
                                     <a class="btn btn-square btn-light rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
@@ -159,7 +126,7 @@
                                 <img src="img/" class="img-fluid rounded w-100" alt="Image">
                             </div>
                             <div class="team-content pt-4">
-                                <h4>MARTIN DOE</h4>
+                                <h4>Nzurum Asher</h4>
                                 <p>Profession</p>
                                 <div class="team-icon d-flex justify-content-center">
                                     <a class="btn btn-square btn-light rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
@@ -176,7 +143,7 @@
                                 <img src="img/" class="img-fluid rounded w-100" alt="Image">
                             </div>
                             <div class="team-content pt-4">
-                                <h4>MARTIN DOE</h4>
+                                <h4>Oyenuga Daniel</h4>
                                 <p>Profession</p>
                                 <div class="team-icon d-flex justify-content-center">
                                     <a class="btn btn-square btn-light rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
