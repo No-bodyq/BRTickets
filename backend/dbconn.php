@@ -2,8 +2,9 @@
 // Database configuration
 define('DB_HOST', 'localhost');
 define('DB_NAME', 'busticket');
-define('DB_USER', 'root');    
-define('DB_PASS', '');        
+define('DB_USER', 'root');
+define('DB_PASS', '5552471');
+
 
 try {
     
