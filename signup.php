@@ -17,13 +17,14 @@
       margin: 0;
       padding: 0;
       box-sizing: border-box;
-      background: url('/img/side-view-woman-waiting-bus.jpg') no-repeat center center fixed;
+      background: url('./img/side-view-woman-waiting-bus.jpg') no-repeat center center fixed;
       background-size: cover;
     }
 
     .container-fluid::before {
       content: "";
       position: absolute;
+      height: 1000px;
       top: 0;
       right: 0;
       bottom: 0;

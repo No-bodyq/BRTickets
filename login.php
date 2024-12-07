@@ -21,7 +21,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: url('/img/side-view-woman-waiting-bus.jpg') no-repeat center center fixed;
+    background: url('./img/side-view-woman-waiting-bus.jpg') no-repeat center center fixed;
     background-size: cover;
   }
 
@@ -35,29 +35,9 @@
     background: rgba(0, 0, 0, 0.2);
   }
 
-  /* The construction image side */
-  /* .construction-image {
-        background: url('../Images/hero-carousel-1.jpg') no-repeat center center fixed;
-        background-size: cover;
-      } */
-
-  /* The sign up form side */
-  /* .signup-section {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        min-height: 100vh;
-        padding: 1rem;
-        border-radius: 5%;
-        background-color: #f5f5f5; Replace with the correct color code from the image 
-      } */
-
-  /* The sign up form styling */
-
 
   .signup-form {
     background-color: #ffffff;
-    /* Replace with the correct color code from the image */
     padding: 15rem 5rem 1rem;
     border-radius: 30px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
@@ -90,7 +70,6 @@
   /* Submit button styling */
   .btn-primary {
     background-color: #b0d3ea;
-    /* Replace with the correct color code from the image */
     color: black;
     border: none;
     border-radius: 20px;
@@ -101,7 +80,6 @@
 
   .btn-primary:hover {
     background-color: #64BAF3;
-    /* Darker shade for hover effect, replace as needed */
     color: white;
   }
 
@@ -132,7 +110,6 @@
     height: 15px;
     /* Height of the rectangle */
     background-color: #64BAF3;
-    /* Yellow color, replace with the exact color code from your design */
     margin: 5px;
     /* Spacing between the rectangles */
     display: inline-block;
@@ -143,7 +120,6 @@
 
   h5 {
     color: #000;
-    /* Replace with the exact color code used in your design */
     margin-top: 20px;
     /* Spacing between icons and text */
   }
