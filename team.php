@@ -81,7 +81,7 @@
         <div class="container-fluid team py-5">
             <div class="container py-5">
                 <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
-                    <h1 class="display-5 text-capitalize mb-3">Customer<span class="text-primary"> Suport</span> Center</h1>
+                    <h1 class="display-5 text-capitalize mb-3">Customer<span class="text-primary"> Support</span> Center</h1>
                     <!-- <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut amet nemo expedita asperiores commodi accusantium at cum harum, excepturi, quia tempora cupiditate! Adipisci facilis modi quisquam quia distinctio,
                     </p> -->
                 </div>
@@ -92,7 +92,7 @@
                                 <img src="img/" class="img-fluid rounded w-100" alt="Image">
                             </div>
                             <div class="team-content pt-4">
-                                <h4>MARTIN DOE</h4>
+                                <h4>Tayo Osunyomi</h4>
                                 <p>Profession</p>
                                 <div class="team-icon d-flex justify-content-center">
                                     <a class="btn btn-square btn-light rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
@@ -109,7 +109,7 @@
                                 <img src="img/" class="img-fluid rounded w-100" alt="Image">
                             </div>
                             <div class="team-content pt-4">
-                                <h4>MARTIN DOE</h4>
+                                <h4>Ojimba Anita</h4>
                                 <p>Profession</p>
                                 <div class="team-icon d-flex justify-content-center">
                                     <a class="btn btn-square btn-light rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
@@ -126,7 +126,7 @@
                                 <img src="img/" class="img-fluid rounded w-100" alt="Image">
                             </div>
                             <div class="team-content pt-4">
-                                <h4>MARTIN DOE</h4>
+                                <h4>Nzurum Asher</h4>
                                 <p>Profession</p>
                                 <div class="team-icon d-flex justify-content-center">
                                     <a class="btn btn-square btn-light rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
@@ -143,7 +143,7 @@
                                 <img src="img/" class="img-fluid rounded w-100" alt="Image">
                             </div>
                             <div class="team-content pt-4">
-                                <h4>MARTIN DOE</h4>
+                                <h4>Oyenuga Daniel</h4>
                                 <p>Profession</p>
                                 <div class="team-icon d-flex justify-content-center">
                                     <a class="btn btn-square btn-light rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
