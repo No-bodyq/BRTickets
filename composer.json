@@ -1,0 +1,17 @@
+{
+    "name": "thefo/brt",
+    "require": {
+        "phpmailer/phpmailer": "^6.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Thefo\\Brt\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Asher",
+            "email": "141028690+No-bodyq@users.noreply.github.com"
+        }
+    ]
+}
