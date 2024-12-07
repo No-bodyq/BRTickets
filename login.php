@@ -165,6 +165,7 @@
               </div>
             </div>
             <button type="submit" class="btn btn-primary btn-block" id="submitBtn" style="background-color: #64BAF3;">Login</button>
+            <p>Don't have an account <a href="signup.php">Sign In</a></p>
           </form>
         </div>
       </div>
@@ -175,10 +176,10 @@
   <script>
     AOS.init()({
       // Custom settings:
-      duration: 800, // values from 0 to 3000, with step 50ms
-      easing: 'ease-in-out-quart', // default easing for AOS animations
-      once: true, // whether animation should happen only once - while scrolling down
-      mirror: false, // whether elements should animate out while scrolling past them
+      duration: 800,
+      easing: 'ease-in-out-quart',
+      once: true,
+      mirror: false,
     });
 
     function togglePassword(inputId, iconId) {
