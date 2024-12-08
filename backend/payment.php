@@ -119,7 +119,7 @@ if (!isset($_SESSION['user_id'])) {
                         <input type="text" class="form-control card-input" placeholder="John Doe" required>
                     </div>
 
-                    <button type="submit" class="btn btn-primary btn-lg w-100">Pay Now</button>
+                    <button type="submit" method="POST" class="btn btn-primary btn-lg w-100">Pay Now</button>
                 </form>
             </div>
         </div>

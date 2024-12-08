@@ -85,8 +85,8 @@ function updateSelectedSeats() {
   sessionStorage.setItem("selectedSeats", JSON.stringify(selectedSeats));
 
   const bookingDetails = JSON.parse(sessionStorage.getItem("bookingDetails"));
-  const basePrice = bookingDetails.busType === "hiance" ? 7500 : 10000;
-  const luggageFee = bookingDetails.luggage ? 2000 : 0;
+  const basePrice = bookingDetails.busType === "hiance" ? 1500 : 2000;
+  const luggageFee = bookingDetails.luggage ? 500 : 0;
 
   const totalAmount = basePrice * selectedSeats.length + luggageFee;
   document.querySelector(".price-value").textContent =

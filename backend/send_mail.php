@@ -3,7 +3,7 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-require 'vendor/autoload.php';
+require '../vendor/autoload.php';
 require_once 'dbconn.php';
 
 function sendTicketEmail($userId, $ticketDetails)
@@ -22,13 +22,13 @@ function sendTicketEmail($userId, $ticketDetails)
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'uzomannanyere@gmail.com';
-        $mail->Password = 'ynuwxcjgkudqqgxe';
+        $mail->Username = 'nobodyq123@gmail.com';
+        $mail->Password = 'ntaqishutpihbfgq';
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port = 587;
 
         // Recipients
-        $mail->setFrom('uzomannanyere@gmail.com', 'BRTickets');
+        $mail->setFrom('nobodyq123@gmail.com', 'BRTickets');
 
         $mail->addAddress($userEmail);
 
@@ -63,7 +63,7 @@ function sendTicketEmail($userId, $ticketDetails)
         return false;
     }
 }
-// Add this at the end of send_mail.php
+
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $data = json_decode(file_get_contents('php://input'), true);
 
