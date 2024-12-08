@@ -25,8 +25,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
 
         $busType = $bookingDetails['busType'];
-        $basePrice = ($busType === 'hiance') ? 23000 : 25000;
-        $luggageFee = $bookingDetails['luggage'] ? 5000 : 0;
+        $basePrice = ($busType === 'hiance') ? 1500 : 2000;
+        $luggageFee = $bookingDetails['luggage'] ? 500 : 0;
         $totalAmount = ($basePrice * count($selectedSeats)) + $luggageFee;
 
         $stmt = $pdo->prepare($sql);
