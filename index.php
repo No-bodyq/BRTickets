@@ -21,11 +21,8 @@
     <link href="lib/animate/animate.min.css" rel="stylesheet">
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
-
-    <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
 </head>
 
@@ -352,15 +349,6 @@
                             <div class="col-lg-5 d-flex align-items-center">
                                 <a href="#" class="btn btn-primary rounded py-3 px-5">Discover More About BRTickets</a>
                             </div>
-                            <!-- <div class="col-lg-7">
-                                    <div class="d-flex align-items-center">
-                                        <img src="img/attachment-img.jpg" class="img-fluid rounded-circle border border-4 border-secondary" style="width: 100px; height: 100px;" alt="Image">
-                                        <div class="ms-4">
-                                            <h4>William Burgess</h4>
-                                            <p class="mb-0">Carveo Founder</p>
-                                        </div>
-                                    </div>
-                                </div> -->
                         </div>
                     </div>
                 </div>
@@ -552,7 +540,6 @@
                     <div class="testimonial-quote"><i class="fa fa-quote-right fa-2x"></i>
                     </div>
                     <div class="testimonial-inner p-4">
-                        <!-- <img src="img/testimonial-1.jpg" class="img-fluid" alt=""> -->
                         <div class="ms-4">
                             <h4>John D.</h4>
                             <p>Frequent Commuter</p>
@@ -573,7 +560,6 @@
                     <div class="testimonial-quote"><i class="fa fa-quote-right fa-2x"></i>
                     </div>
                     <div class="testimonial-inner p-4">
-                        <!-- <img src="img/testimonial-2.jpg" class="img-fluid" alt=""> -->
                         <div class="ms-4">
                             <h4>Sarah L.</h4>
                             <p>Student</p>
@@ -711,8 +697,6 @@
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
     <script src="js/book_seat.js"></script>
 
-
-    <!-- Template Javascript -->
     <script src="js/main.js"></script>
 </body>
 
